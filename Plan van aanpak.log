@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.3.14)  7 APR 2017 12:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.3.14)  7 APR 2017 13:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -434,37 +434,42 @@ Package: ifnextok 2011/06/27 v0.3 test next token (UL)
 \rletterlap=\skip61
 \afterspacelap=\skip62
 )
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 12.
-
+(c:/texlive/2016/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 13.
 
 
-Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 14.
 
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 15.
 
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 16.
+
 (./Plan van aanpak.aux)
 \openout1 = `"Plan van aanpak.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
 (c:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -528,24 +533,39 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Overfull \hbox (30.0pt too wide) in paragraph at lines 24--24
+Overfull \hbox (30.0pt too wide) in paragraph at lines 25--25
  []| 
  []
 
 
-Overfull \hbox (30.0pt too wide) in paragraph at lines 26--26
+Overfull \hbox (30.0pt too wide) in paragraph at lines 27--27
  []| 
  []
 
-<logo.png, id=1, 401.5pt x 401.5pt>
-File: logo.png Graphic file (type png)
- <use logo.png>
-Package pdftex.def Info: logo.png used on input line 27.
+Package epstopdf Info: Source file: <logo.eps>
+(epstopdf)                    date: 2017-04-07 13:55:28
+(epstopdf)                    size: 978147 bytes
+(epstopdf)             Output file: <logo-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=logo-eps-converted-to.pdf 
+logo.eps>
+(epstopdf)             \includegraphics on input line 28.
+runsystem(repstopdf --outfile=logo-eps-converted-to.pdf logo.eps)...executed sa
+fely (allowed).
+
+Package epstopdf Info: Result file: <logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-04-07 13:56:55
+(epstopdf)                    size: 41690 bytes.
+<logo-eps-converted-to.pdf, id=1, 401.5pt x 401.5pt>
+File: logo-eps-converted-to.pdf Graphic file (type pdf)
+
+<use logo-eps-converted-to.pdf>
+Package pdftex.def Info: logo-eps-converted-to.pdf used on input line 28.
 (pdftex.def)             Requested size: 220.82567pt x 220.82567pt.
  [1
 
-{c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./logo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
+{c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./logo-eps-conv
+erted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
@@ -554,45 +574,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
 \openout3 = `"Plan van aanpak.toc"'.
 
  [1]
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 38.
+(Font)              <9> on input line 39.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 38.
+(Font)              <6> on input line 39.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 38.
-LaTeX Font Info:    Try loading font information for T1+custom on input line 41
+(Font)              <5> on input line 39.
+LaTeX Font Info:    Try loading font information for T1+custom on input line 42
 .
 (./t1custom.fd
 File: t1custom.fd 
-) [3] (./Plan van aanpak.aux) ) 
+) [3] (./Plan van aanpak.bbl) [4] (./Plan van aanpak.aux) ) 
 Here is how much of TeX's memory you used:
- 2632 strings out of 493013
- 34124 string characters out of 6136993
- 99772 words of memory out of 5000000
- 6125 multiletter control sequences out of 15000+600000
+ 2735 strings out of 493013
+ 35403 string characters out of 6136993
+ 100727 words of memory out of 5000000
+ 6209 multiletter control sequences out of 15000+600000
  8609 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,10n,43p,252b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
-{T1-WGL4.enc}<custom.ttf><c:/texlive/2016/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2016/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmss12.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmss17.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mss9.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pf
-b>
-Output written on "Plan van aanpak.pdf" (4 pages, 111409 bytes).
+{T1-WGL4.enc}<custom
+.ttf><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/20
+16/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2016/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmss17.pfb><c:/texlive/2016/texmf-dist/font
+s/type1/public/amsfonts/cm/cmss9.pfb><c:/texlive/2016/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmssbx10.pfb>
+Output written on "Plan van aanpak.pdf" (5 pages, 109709 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 32 compressed objects within 1 object stream
+ 52 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

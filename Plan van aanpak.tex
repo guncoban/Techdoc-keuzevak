@@ -4,10 +4,11 @@
 \usepackage{graphicx}
 \usepackage{fancyhdr}
 \usepackage{censor}
+\usepackage{cite}
 \graphicspath{ {images/} }
 \newcommand\customfont[1]{{\usefont{T1}{custom}{m}{n} #1 }}
-
 \pagestyle{fancy}
+\bibliographystyle{plain}
 \fancyhf{}
 \fancyhead[LE,RO]{HOGESCHOOL ROTTERDAM}
 \fancyhead[RE,LO]{CONFIDENTIAL}
@@ -22,7 +23,7 @@
             \Large{Project Snuffelneus}\\[2cm]
 	    \Huge{DECLASSIFIED}\\[1.4cm]
             \line(1,0){375}\\[0.2cm]
-            \large{Feyyaz Catak\\Gunduzhan Coban\\{\today}}\\[0.2cm]
+            \large{Gunduzhan Coban\\{\today}}\\[0.2cm]
             \line(1,0){375}\\[1cm]
             \includegraphics[scale=0.55]{logo}
         \end{center}
@@ -35,8 +36,10 @@
 \newpage{}
 \Huge{Opdrachtomschrijving}\\[0.3cm]
 	\section{Benodigdheden}
-		\small{Om de locatie te kunnen bepalen hebben wij een \censor{GPS module} nodig.}
+		\small{Om de locatie te kunnen bepalen hebben wij een \censor{GPS module} nodig. \cite{Gezond}	}
 		\blackout{Haha die peasants zullen nooit weten wat hier staat} 
 		\StopCensoring
 		\customfont{custom font}
+\newpage{}
+\bibliography{mybib}{}
 \end{document}
