@@ -1,0 +1,42 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[dutch]{babel}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{censor}
+\graphicspath{ {images/} }
+\newcommand\customfont[1]{{\usefont{T1}{custom}{m}{n} #1 }}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{HOGESCHOOL ROTTERDAM}
+\fancyhead[RE,LO]{CONFIDENTIAL}
+\fancyfoot[CE,CO]{DECLASSIFIED}
+\fancyfoot[LE,RO]{\thepage}
+\begin{document}
+
+\sffamily
+    \begin{titlepage}
+        \begin{center}
+            \Huge{Plan van Aanpak}\\[1cm]
+            \Large{Project Snuffelneus}\\[2cm]
+	    \Huge{DECLASSIFIED}\\[1.4cm]
+            \line(1,0){375}\\[0.2cm]
+            \large{Feyyaz Catak\\Gunduzhan Coban\\{\today}}\\[0.2cm]
+            \line(1,0){375}\\[1cm]
+            \includegraphics[scale=0.55]{logo}
+        \end{center}
+    \end{titlepage}
+\newpage{}
+\Huge{Inhoudsopgave}\\[0.3cm]
+\tableofcontents
+\newpage{}
+\Huge{Inleiding}\\[0.3cm]
+\newpage{}
+\Huge{Opdrachtomschrijving}\\[0.3cm]
+	\section{Benodigdheden}
+		\small{Om de locatie te kunnen bepalen hebben wij een \censor{GPS module} nodig.}
+		\blackout{Haha die peasants zullen nooit weten wat hier staat} 
+		\StopCensoring
+		\customfont{custom font}
+\end{document}
